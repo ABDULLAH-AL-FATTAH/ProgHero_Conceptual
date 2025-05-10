@@ -12,8 +12,9 @@
     background-size: cover;
     background-position: top center;
     height: 100vh;
+    /* image clip generator from online "www.bennettfeely.com.clippy/" */
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
 }
-
 .hero h1 {
     color: rgb(23, 65, 65);
     font-size: 100px;
@@ -33,6 +34,7 @@
     /* border-width: 15px; */
     /* border-color: rgb(134, 134, 209); */
     /* border-style: solid; */
+    background: linear-gradient(45deg, rgb(211, 170, 177), rgb(149, 149, 226));
 }
 
 .article h2, #cow-type h2{
@@ -72,7 +74,8 @@
     flex-direction: row; /*by default flex shows in Row, you can set it in column */
     gap: 20px;  /*flex items gap */
     flex-wrap: wrap; /*flex items shows in row but in smaller display it shows in column */
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: space-between;
 
 
 }
